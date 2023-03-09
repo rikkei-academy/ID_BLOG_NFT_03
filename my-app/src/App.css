@@ -1,0 +1,534 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #06132D;
+}
+
+/* Navbar Css */
+.Navbar {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Navbar .logo img {
+  width: 170px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.Navbar .menu {
+  width: 675px;
+  height: 32px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-around;
+  color: #CCCCCC;
+}
+
+.Navbar .menu div:hover {
+  cursor: pointer;
+  color: #FFFF;
+}
+
+.Navbar button {
+  width: 180px;
+  height: 50px;
+  background-color: #0047B8;
+  color: #FFFF;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* ////////////// */
+
+/* Hero Css */
+
+
+.Hero {
+  margin: 60px;
+  height: 653px;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+/* --Hero-title */
+.Hero-title .text-title-1 {
+  width: 600px;
+  height: 264px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+  font-family: 'Noto Sans JP';
+  text-transform: capitalize;
+  color: #FFFF;
+}
+
+.Hero-title .text-title-2 {
+  width: 539px;
+  height: 84px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  color: #FFFF;
+}
+
+.btn-box1 {
+  width: 200px;
+  height: 55px;
+  background-color: #1F75FF;
+  color: #FFFF;
+  border-radius: 8px;
+  margin: 10px 10px 10px -4px;
+  cursor: pointer;
+}
+
+.btn-box2 {
+  width: 200px;
+  height: 55px;
+  background-color: #06132D;
+  border: 0.5px solid #ffffff8c;
+  color: #FFFF;
+  border-radius: 8px;
+  margin: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* ----- */
+
+/* --Hero-cards */
+.Cards {
+  display: flex;
+  overflow: hidden;
+}
+
+
+.Hero-cards {
+  width: 400px;
+  height: 650px;
+  border-radius: 15px;
+  background-color: #0E1E45;
+  margin: 0 2rem;
+}
+
+.card-NFT1 {
+  padding: 20px;
+}
+
+.Hero-cards .card-NFT1 img {
+  width: 360px;
+  height: 405px;
+}
+
+.NFT-title-name {
+  width: 250px;
+  height: 48px;
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #FFFF;
+}
+
+.profile {
+  height: 10vh;
+  margin-top: 10px;
+  display: flex;
+  border-bottom: 1px solid #FFFF;
+}
+
+.profile .img-user img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.profile .title-user {
+  color: #FFFF;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 34px;
+  margin-left: 10px;
+}
+
+.cardboard {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.Cbid {
+  font-size: 1rem;
+  color: #ccccccec;
+}
+
+.eth {
+  font-size: 1.4rem;
+  color: #FFFF;
+  margin: 10px 0;
+}
+
+/* .cardboard button{
+  width: 10.3125rem;
+  height: 3.3rem;
+  border-radius: 10px;
+  background-color: #0E1E45;
+  border: 1px solid #CCCCCC;
+  color: #FFFF;
+  cursor: pointer;
+} */
+
+.cardboard button {
+  width: 10.3125rem;
+  height: 3.3rem;
+  border-radius: 10px;
+  background-color: #1F75FF;
+  border: none;
+  color: #FFFF;
+  cursor: pointer;
+}
+
+
+.card-NFT2 {
+  padding: 20px;
+}
+
+.Hero-cards .card-NFT2 img {
+  width: 360px;
+  height: 405px;
+}
+
+.Hero-cards2 {
+  width: 400px;
+  height: 34rem;
+  border-radius: 15px;
+  background-color: #0E1E45;
+}
+
+.profile2 {
+  height: 10vh;
+  margin-top: 10px;
+  display: flex;
+}
+
+.profile2 .img-user img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.profile2 .title-user {
+  color: #FFFF;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 34px;
+  margin-left: 10px;
+}
+
+.sliders {
+  width: 3.25rem;
+  height: 4rem;
+  font-size: 1rem;
+  margin-top: 1.8rem;
+  color: #ccccccec;
+  display: flex;
+}
+
+
+.sliders .sp1 {
+  font-size: 3rem;
+  color: #FFFF;
+}
+
+.sliders .sp2 {
+  line-height: 5rem;
+}
+
+/* ----- */
+/* ///////////// */
+
+
+/* Live auctions Css */
+.live-auctions {
+  margin: 3.75rem;
+}
+
+.live-auctions .title-live-auctions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.live-auctions .title-live-auctions h3 {
+  font-size: 3rem;
+  color: #FFFF;
+}
+
+.title-live-auctions .btn-ri-le {
+  display: flex;
+}
+
+.btn-ri-le .ri-le {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #0E1E45;
+  color: #1F75FF;
+}
+
+.btn-ri-le .ri-le:hover {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #1F75FF;
+  color: #FFFF;
+}
+
+.live-auctions-cards {
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cards-NFTs {
+  width: 24.7rem;
+  height: 670px;
+  border-radius: 15px;
+  background-color: #0E1E45;
+}
+
+.cards-NFTs .NFTCards {
+  padding: 0.9375rem;
+}
+
+.NFTCards .profiles {
+  height: 10vh;
+  margin-top: 10px;
+  display: flex;
+}
+
+.profiles .img-user img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.profiles .title-user {
+  color: #FFFF;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 34px;
+  margin-left: 10px;
+}
+
+.cardboard2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.NFTCards button {
+  width: 23rem;
+  height: 3rem;
+  border-radius: 8px;
+  background-color: #0E1E45;
+  border: 1px solid #CCCCCC;
+  color: #FFFF;
+}
+
+.NFTCards button:hover {
+  width: 23rem;
+  height: 3rem;
+  border-radius: 8px;
+  background-color: #1F75FF;
+  border: none;
+  color: #FFFF;
+  cursor: pointer;
+}
+
+/* ///////////// */
+
+
+/* Explore-art Css */
+.Explore-art {
+  margin: 3.75rem;
+}
+
+.Explore-art .title-Explore-art h3 {
+  font-size: 3rem;
+  color: #FFFF;
+}
+
+.category {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btns-categorys button {
+  margin-right: 10px;
+  padding: 8px 25px;
+  border-radius: 8px;
+  border: 1px solid #cccccca1;
+  background-color: #06132D;
+  color: #FFFF;
+  cursor: pointer;
+}
+
+.btns-categorys button:hover {
+  padding: 8px 25px;
+  border-radius: 8px;
+  border: 1px solid #0047B8;
+  background-color: #0047B8;
+  color: #FFFF;
+}
+
+.btns-categorys-menu button {
+  padding: 8px 25px;
+  border-radius: 8px;
+  border: 1px solid #cccccca1;
+  background-color: #06132D;
+  color: #FFFF;
+  cursor: pointer;
+}
+
+.btns-categorys-menu button:hover {
+  padding: 8px 25px;
+  border-radius: 8px;
+  border: 1px solid #0047B8;
+  background-color: #0047B8;
+  color: #FFFF;
+}
+
+.btns-categorys-menu button i {
+  margin-left: 10px;
+  color: #FFFF;
+  z-index: 1;
+}
+
+.categorys-cards {
+  margin-top: 2.5rem;
+}
+
+.categorys-cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.categorys-cards .cards-NFTs {
+  margin: 6px;
+}
+
+/* ////////////// */
+
+/* Popular Artist Css */
+.Popular-artist {
+  margin: 3.75rem;
+}
+
+.Popular-artist .title-Popular-artist h3 {
+  font-size: 3rem;
+  color: #FFFF;
+}
+
+.title-Popular-artist {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-Popular-artist .btn-ri-le {
+  display: flex;
+}
+
+.list-artists {
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.artist {
+  width: 20rem;
+  height: 4rem;
+  display: flex;
+  margin: 0 2rem;
+}
+
+.artist .stt-munber {
+  width: 1.8rem;
+  height: 2rem;
+  line-height: 3rem;
+  font-size: 1.2rem;
+  color: #FFFF;
+}
+
+.artist .img-artist img {
+  width: 2.8rem;
+  height: 2.8em;
+  margin: 0 1rem;
+  border-radius: 50%;
+
+}
+
+.artist-users .name-user {
+  width: 10rem;
+  height: 2rem;
+  color: #FFFF;
+  font-size: 1.2rem;
+}
+
+.artist-users .email-user {
+  color: #ccccccdc;
+}
+
+/* /////////////// */
+
+
+/* CTA Css */
+.CTA {
+  height: 28rem;
+  background-color: #0047B8;
+  margin: 3.75rem;
+  padding: 3rem;
+}
+
+.CTA .title1-cta {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+/* ////////////// */
