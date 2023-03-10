@@ -13,21 +13,26 @@ body {
 /* Navbar Css */
 .Navbar {
   width: 100%;
-  height: 120px;
+  height: 80px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: #06132D;
+  border-bottom: 1px solid #cccccce7;
+  top: 0;
+  position: fixed;
+  z-index: 1000;
 }
 
 .Navbar .logo img {
-  width: 170px;
+  width: 153px;
   height: 32px;
   cursor: pointer;
 }
 
 .Navbar .menu {
   width: 675px;
-  height: 32px;
+  height: 27px;
   margin-left: 20px;
   display: flex;
   justify-content: space-around;
@@ -57,6 +62,8 @@ body {
   margin: 60px;
   height: 653px;
   display: flex;
+  margin-top: 120px;
+  /* position: relative; */
   /* justify-content: space-between; */
 }
 
@@ -133,7 +140,7 @@ body {
 }
 
 .NFT-title-name {
-  width: 250px;
+  width: max-content;
   height: 48px;
   font-family: 'Noto Sans JP';
   font-style: normal;
@@ -450,7 +457,7 @@ body {
 
 /* Popular Artist Css */
 .Popular-artist {
-  margin: 3.75rem;
+  margin: 10rem 3.75rem;
 }
 
 .Popular-artist .title-Popular-artist h3 {
@@ -512,16 +519,122 @@ body {
 /* /////////////// */
 
 
+/* Popular Articles */
+.Popular-articles {
+  margin: 3.75rem;
+}
+
+.Popular-articles .title-Popular-articles h3 {
+  font-size: 3rem;
+  color: #FFFF;
+}
+
+.title-Popular-articles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Popular-articles .title-Popular-articles button {
+  width: 12rem;
+  height: 3rem;
+  border-radius: 7px;
+  background-color: #06132D;
+  border: 1px solid #ccccccd5;
+  color: #FFFF;
+}
+
+.Popular-articles .title-Popular-articles button:hover {
+  width: 12rem;
+  height: 3rem;
+  border-radius: 7px;
+  background-color: #1F75FF;
+  border: 1px solid #1F75FF;
+  color: #FFFF;
+}
+
+
+.list-card-Popular {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.cards-NFTs-article1 {
+  width: 50rem;
+  height: 45rem;
+  padding: 17px;
+  border-radius: 15px;
+  background-color: #0E1E45;
+  margin: 1rem 0;
+}
+
+.cards-NFTs-article2 {
+  margin: 1rem 0;
+}
+
+
+
+.cards-NFTs-article1 .NFTCards .image img {
+  width: 48rem;
+  height: 25rem;
+  border-radius: 20px;
+
+}
+
+.NFT-title-name2 {
+  width: 48rem;
+  height: 6rem;
+  font-family: 'Noto Sans JP';
+  font-weight: 700;
+  font-size: 1.9rem;
+  line-height: 3rem;
+  color: #FFFF;
+}
+
+.title-content {
+  font-size: 1rem;
+  color: #CCCCCC;
+  margin-top: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
+
+.cards-NFTs-article2 {
+  width: 25rem;
+  height: 45rem;
+  padding: 17px;
+  border-radius: 15px;
+  background-color: #0E1E45;
+}
+
+.NFT-title-name3 {
+  width: 24rem;
+  height: 6rem;
+  font-family: 'Noto Sans JP';
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: #FFFF;
+  margin-bottom: 1.6rem;
+}
+
+/* ////////////// */
+
+
 /* CTA Css */
 .CTA {
+  width: 91%;
   height: 28rem;
-  background-color: #0047B8;
+  text-align: center;
+  background-color: #2c5dab;
   margin: 3.75rem;
-  padding: 3rem;
+  padding: 5rem;
+  border-radius: 6px;
 }
 
 .CTA .title1-cta {
-  width: 60%;
+  width: 100%;
   display: flex;
   justify-content: center;
   font-size: 3rem;
@@ -531,4 +644,215 @@ body {
   line-height: 4rem;
 }
 
+.CTA .title1-cta p {
+  width: 68%;
+  color: #f3f3f3;
+  margin: 1rem;
+}
+
+.CTA .title2-cta {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2rem;
+  margin-bottom: 4rem;
+}
+
+.title2-cta p {
+  width: 70%;
+  color: #CCCCCC;
+}
+
+.ipt-cta {
+  width: 50%;
+  height: 3rem;
+  /* border: 1px solid; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ipt-cta input {
+  width: 74%;
+  padding: 0 1.5rem;
+  border-radius: 6px;
+  background-color: #0E1E45;
+  color: #FFFF;
+  outline: 1px solid #06132D;
+  border: none;
+}
+
+.ipt-cta button {
+  width: 22%;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #1F75FF;
+  background-color: #1F75FF;
+  color: #FFFF;
+  cursor: pointer;
+}
+
 /* ////////////// */
+
+/* Footer */
+.Footer {
+  margin: 39vh 3.7rem 7vh 3.7rem;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+
+.Footer .Footer-box1 .logo img {
+  width: 156px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.Footer-box1 {
+  width: 30rem;
+  height: max-content;
+}
+
+.Footer-box1 .texts-title {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #CCCCCC;
+  margin: 15px 3px;
+}
+
+.Footer-box2 {
+  width: max-content;
+  color: #FFFF;
+  font-size: 1rem;
+  font-weight: 300;
+
+}
+
+.Footer-box2 p {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+li {
+  list-style: none;
+  margin: 1rem 0;
+}
+
+.box-text {
+  display: flex;
+  justify-content: space-between;
+  color: #cccccca1;
+  margin-top: 2rem;
+}
+
+
+.text-t {
+  width: 25rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+/* ////////// */
+
+
+/* //////// LOGIN CSS */
+.from-login {
+  width: 100%;
+  height: 100vh;
+  background-color: #06132D;
+  display: flex;
+}
+
+.from-login img {
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  opacity: calc(0.6);
+}
+
+.Login {
+  width: 40%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  z-index: 100;
+  background-color: #FFFF;
+}
+
+.extra-login {
+  padding: 5rem 3.7rem 3.7rem;
+}
+
+.Login-title {
+  margin-bottom: 4rem;
+}
+
+.Login-title h2 {
+  font-size: 2.7rem;
+  margin-bottom: 0.9rem;
+}
+
+.Login-title p {
+  font-size: 1.5rem;
+}
+
+.Login-inpt {
+  width: 100%;
+}
+
+.Login-inpt span {
+  color: red;
+  margin-left: 1.6rem;
+}
+
+.Login-inpt .inpts {
+  margin-bottom: 1.5vh;
+}
+
+.Login-inpt .inpts i {
+  position: absolute;
+  padding: 1.7rem;
+  font-size: 1.4rem;
+}
+
+.Login-inpt .inpts input {
+  width: 100%;
+  height: 3.4rem;
+  border-radius: 50px;
+  outline: none;
+  border: 1px solid black;
+  padding: 0 3.6rem;
+  margin: 2vh 0;
+}
+
+
+.Login-inpt .inpt-password .password-forgotpassword {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.7vh;
+}
+
+.extra-login .Login-btn button {
+  width: 100%;
+  height: 8.5vh;
+  border: none;
+  border-radius: 28px;
+  margin: 3vh 0;
+  background-image: linear-gradient(135deg, #ff0a6c -16.8%, #2d27ff 138.64%);
+  color: #FFFF;
+}
+
+.extra-login .back {
+  text-align: center;
+}
+
+/* ////// */
