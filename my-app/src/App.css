@@ -123,20 +123,21 @@ body {
 
 
 .Hero-cards {
-  width: 400px;
-  height: 650px;
-  border-radius: 15px;
+  width: 25rem;
+  height: 104vh;
+  border-radius: 0.9rem;
   background-color: #0E1E45;
-  margin: 0 2rem;
+  margin: 0 1rem;
 }
 
 .card-NFT1 {
-  padding: 20px;
+  padding: 1.1rem;
 }
 
 .Hero-cards .card-NFT1 img {
-  width: 360px;
-  height: 405px;
+  width: 23rem;
+  height: 64vh;
+  border-radius: 0.8rem;
 }
 
 .NFT-title-name {
@@ -190,15 +191,6 @@ body {
   margin: 10px 0;
 }
 
-/* .cardboard button{
-  width: 10.3125rem;
-  height: 3.3rem;
-  border-radius: 10px;
-  background-color: #0E1E45;
-  border: 1px solid #CCCCCC;
-  color: #FFFF;
-  cursor: pointer;
-} */
 
 .cardboard button {
   width: 10.3125rem;
@@ -215,9 +207,10 @@ body {
   padding: 20px;
 }
 
-.Hero-cards .card-NFT2 img {
-  width: 360px;
-  height: 405px;
+.Hero-cards2 .card-NFT2 img {
+  width: 23rem;
+  height: 64vh;
+  border-radius: 0.9rem;
 }
 
 .Hero-cards2 {
@@ -331,6 +324,12 @@ body {
 
 .cards-NFTs .NFTCards {
   padding: 0.9375rem;
+}
+
+.cards-NFTs .NFTCards img {
+  width: 23rem;
+  height: 64vh;
+  border-radius: 15px;
 }
 
 .NFTCards .profiles {
@@ -608,6 +607,12 @@ body {
   background-color: #0E1E45;
 }
 
+.cards-NFTs-article2 img {
+  width: 23rem;
+  height: 64vh;
+  border-radius: 10px;
+}
+
 .NFT-title-name3 {
   width: 24rem;
   height: 6rem;
@@ -699,6 +704,8 @@ body {
 /* ////////////// */
 
 /* Footer */
+
+
 .Footer {
   margin: 39vh 3.7rem 7vh 3.7rem;
 }
@@ -760,6 +767,8 @@ li {
   justify-content: space-between;
 
 }
+
+
 
 /* ////////// */
 
