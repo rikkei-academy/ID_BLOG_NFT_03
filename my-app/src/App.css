@@ -10,6 +10,18 @@ body {
   background-color: #06132D;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #06132D;
+}
+
 /* Navbar Css */
 .Navbar {
   width: 100%;
@@ -123,20 +135,21 @@ body {
 
 
 .Hero-cards {
-  width: 400px;
-  height: 650px;
-  border-radius: 15px;
+  width: 25rem;
+  height: 104vh;
+  border-radius: 0.9rem;
   background-color: #0E1E45;
-  margin: 0 2rem;
+  margin: 0 1rem;
 }
 
 .card-NFT1 {
-  padding: 20px;
+  padding: 1.1rem;
 }
 
 .Hero-cards .card-NFT1 img {
-  width: 360px;
-  height: 405px;
+  width: 23rem;
+  height: 64vh;
+  border-radius: 0.8rem;
 }
 
 .NFT-title-name {
@@ -190,15 +203,6 @@ body {
   margin: 10px 0;
 }
 
-/* .cardboard button{
-  width: 10.3125rem;
-  height: 3.3rem;
-  border-radius: 10px;
-  background-color: #0E1E45;
-  border: 1px solid #CCCCCC;
-  color: #FFFF;
-  cursor: pointer;
-} */
 
 .cardboard button {
   width: 10.3125rem;
@@ -215,9 +219,10 @@ body {
   padding: 20px;
 }
 
-.Hero-cards .card-NFT2 img {
-  width: 360px;
-  height: 405px;
+.Hero-cards2 .card-NFT2 img {
+  width: 23rem;
+  height: 64vh;
+  border-radius: 0.9rem;
 }
 
 .Hero-cards2 {
@@ -324,13 +329,18 @@ body {
 
 .cards-NFTs {
   width: 24.7rem;
-  height: 670px;
   border-radius: 15px;
   background-color: #0E1E45;
 }
 
 .cards-NFTs .NFTCards {
   padding: 0.9375rem;
+}
+
+.cards-NFTs .NFTCards img {
+  width: 23rem;
+  height: 64vh;
+  border-radius: 15px;
 }
 
 .NFTCards .profiles {
@@ -556,7 +566,6 @@ body {
 .list-card-Popular {
   display: flex;
   flex-flow: wrap;
-  justify-content: space-between;
   margin: 2rem 0;
 }
 
@@ -566,7 +575,7 @@ body {
   padding: 17px;
   border-radius: 15px;
   background-color: #0E1E45;
-  margin: 1rem 0;
+  margin: 2vh 0.8rem 0 0;
 }
 
 .cards-NFTs-article2 {
@@ -579,7 +588,6 @@ body {
   width: 48rem;
   height: 25rem;
   border-radius: 20px;
-
 }
 
 .NFT-title-name2 {
@@ -606,6 +614,13 @@ body {
   padding: 17px;
   border-radius: 15px;
   background-color: #0E1E45;
+  margin: 2vh 0.6rem 0 0;
+}
+
+.cards-NFTs-article2 img {
+  width: 23rem;
+  height: 64vh;
+  border-radius: 10px;
 }
 
 .NFT-title-name3 {
@@ -699,6 +714,8 @@ body {
 /* ////////////// */
 
 /* Footer */
+
+
 .Footer {
   margin: 39vh 3.7rem 7vh 3.7rem;
 }
@@ -762,6 +779,14 @@ li {
 }
 
 /* ////////// */
+
+
+
+
+
+
+
+
 
 
 /* //////// LOGIN CSS */
@@ -856,3 +881,678 @@ li {
 }
 
 /* ////// */
+
+
+
+/* REGISTER CSS */
+.from-register {
+    width: 100%;
+    height: 100vh;
+    background-color: #06132D;
+    display: flex;
+}
+
+.from-register img {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    opacity: calc(0.6);
+}
+
+.Register {
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    z-index: 100;
+    background-color: #FFFF;
+}
+
+.extra-register {
+    padding: 2rem 3.7rem 1.4rem;
+}
+
+.register-title {
+    margin-bottom: 4rem;
+}
+
+.register-title h2 {
+    font-size: 2.7rem;
+    margin-bottom: 0.9rem;
+}
+
+.register-title p {
+    font-size: 1.5rem;
+}
+
+.Register-inpt {
+    width: 100%;
+}
+
+.Register-inpt span {
+    color: red;
+    margin-left: 1.6rem;
+}
+
+.Register-inpt .inpts {
+    margin-bottom: 1.3vh;
+}
+
+.Register-inpt .inpts i {
+    position: absolute;
+    padding: 1.7rem;
+    font-size: 1.4rem;
+}
+
+.Register-inpt .inpts input {
+    width: 100%;
+    height: 3.4rem;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid black;
+    padding: 0 3.6rem;
+    margin: 2vh 0;
+}
+
+
+.Register-inpt .inpt-password .password-forgotpassword {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.7vh;
+}
+
+.extra-register .register-btn button {
+    width: 100%;
+    height: 8.5vh;
+    border: none;
+    border-radius: 28px;
+    margin: 3vh 0;
+    background-image: linear-gradient(135deg, #ff0a6c -16.8%, #2d27ff 138.64%);
+    color: #FFFF;
+}
+
+.extra-register .back {
+    text-align: center;
+}
+
+/* ////////////// */
+
+
+
+
+
+
+
+/* Market.css */
+.Market {
+  margin: 25vh 3.7rem;
+}
+
+.Crypto-market-title {
+  width: 60rem;
+
+}
+
+.Crypto-market-title .crypto-title {
+  margin-bottom: 8vh;
+}
+
+.crypto-title h3 {
+  font-size: 3rem;
+  color: #FFFF;
+  margin-bottom: 4vh;
+}
+
+.crypto-title p {
+  font-size: 1rem;
+  line-height: 3vh;
+  color: #CCCC;
+  padding-right: 19rem;
+}
+
+.crypto-btn {
+  /* padding-right: 10rem; */
+  margin-bottom: 5vh;
+}
+
+.crypto-btn p {
+  color: #FFFF;
+  margin-bottom: 3vh;
+}
+
+.box-btns1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-btns1 .ptn {
+  border: 1px solid #FFFF;
+  color: #FFFF;
+  border-radius: 5px;
+  padding: 1vh 2rem;
+}
+
+
+.box-btns2 {
+  width: 12rem;
+}
+
+.box-btns2 p {
+  color: #FFFF;
+  margin-bottom: 2vh;
+}
+
+.box-btns2 .ptn {
+  border: 1px solid #FFFF;
+  color: #FFFF;
+  border-radius: 5px;
+  padding: 1vh 2rem;
+}
+
+.card-market {
+  margin-top: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+
+.card-market .cards-NFTs {
+  margin: 2vh 0.9rem 0rem 0rem;
+}
+
+.cards-NFTs img {
+  width: 23rem;
+  height: 55vh;
+  border-radius: 1rem;
+  margin-bottom: 2vh;
+}
+
+.NFTCards h4 {
+  font-size: 2rem;
+  color: #FFFF;
+  margin-bottom: 2vh;
+}
+
+.market-price {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.9375rem;
+  margin-bottom: 3vh;
+}
+
+.market-price .title {
+  color: #CCC;
+  font-weight: 700;
+}
+
+.market-price .title-ETH {
+  font-size: 1.6rem;
+  color: #FFFF;
+  margin: 1.4vh 0;
+  font-weight: 700;
+}
+
+.market-price .title-price {
+  color: #CCCC;
+  font-weight: 700;
+}
+
+
+.user-profile {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.9375rem;
+  line-height: 8vh;
+}
+
+.user-profile p {
+  color: #FFFF;
+  margin-left: 0.5rem;
+}
+
+.user-profile img {
+  width: 3.2rem;
+  height: 8vh;
+  border-radius: 100%;
+  margin-right: 1rem;
+}
+
+.profile-Artist {
+  display: flex;
+}
+
+.profile-Artist .name-Artist {
+  color: #FFFF;
+}
+
+.profile-Owner {
+  display: flex;
+}
+
+.profile-Owner .name-Owner {
+  color: #FFFF;
+}
+
+
+
+/* //// */
+
+
+
+
+
+/* Explore CSS */
+.Explore{
+  margin-top: 20vh;
+}
+
+.Explore .Explore-search-question {
+  margin: 3.7vh 3.7rem;
+}
+
+.Explore .Explore-search-question .Explore-title h2 {
+  font-size: 3rem;
+  color: #FFFF;
+}
+
+.Explore-search-question .list-search-question {
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-search-question {
+  margin: 5vh 0 2vh 0;
+}
+
+.list-search-question input {
+  width: 84%;
+  height: 100%;
+  border: 1px solid #0047B8;
+  outline: none;
+  border-radius: 5px;
+  padding: 1.3rem;
+  background-color: #0E1E45;
+  color: #FFFF;
+  font-weight: 400;
+}
+
+.list-search-question button {
+  width: 15%;
+  height: 100%;
+  border: 1px solid #1F75FF;
+  background-color: #1F75FF;
+  border-radius: 5px;
+  color: #FFFF;
+}
+
+.Explore-art-Explore{
+  margin: 0 3.7rem;
+}
+
+.Explore-art-Explore .title-Explore-art-Explore{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Explore-art-Explore .title-Explore-art-Explore h3{
+  font-size: 3rem;
+  color: #FFFF;
+}
+
+.New-cryptoArt-cards{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5vh;
+}
+
+.New-cryptoArt-cards .cards-NFTs{
+  margin: 0vh 0.9rem 2vh 0rem;
+}
+
+.New-cryptoArt-cards .cards-NFTs .image img{
+  width: 23rem;
+  height: 65vh;
+}
+/* /// */
+
+
+
+/* Exhibition CSS */
+.Exhibition {
+  margin: 27vh 3.7rem 15vh 3.7rem;
+}
+
+.Exhibition-text-title h3 {
+
+  font-size: 3rem;
+  color: #FFFF;
+}
+
+.Exhibition-text-title p {
+  padding: 2vh 39rem 0vh 0rem;
+  color: #CCCC;
+  font-size: 1rem;
+  font-family: 'DM Sans';
+  font-style: normal;
+}
+
+.Exhibition-cards {
+  margin: 12vh 0;
+}
+
+.exhibition {
+  display: flex;
+}
+
+.exhibition-image img {
+  width: 30rem;
+  height: 90vh;
+  border-radius: 10px;
+  margin-right: 4rem;
+}
+
+.texts-categorys .Days {
+  font-size: 1.8rem;
+  color: #FFFF;
+  margin: 5vh 0;
+}
+
+.texts-categorys h3 {
+  font-size: 3rem;
+  color: #FFFF;
+  font-weight: 700;
+  margin-bottom: 5vh
+}
+
+.texts-categorys p {
+  padding: 0vh 10rem 7vh 0rem;
+  font-weight: 400;
+  color: #CCCC;
+}
+
+.category2{
+  display: flex;
+}
+
+.category2 div{
+  padding: 1vh 0.7rem;
+  font-size: 0.8rem;
+  border-radius: 7px;
+  margin-right: 1rem;
+  background: #0E1E45;
+  border: none;
+  color: #FFFF;
+}
+
+
+.list-userProfiles {
+  margin-top: 5vh;
+}
+
+.list-userProfiles p{
+  font-size: 1.15rem;
+  color: #FFFF;
+}
+
+.all-profiles{
+  width: 26rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.one-profile{
+  display: flex;
+  line-height: 5vh;
+  margin: 2vh 3rem 1vh 0rem;
+}
+
+.one-profile img{
+  width: 2rem;
+  height: 5vh;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.more-profile{
+  display: flex;
+  line-height: 5vh;
+  padding: 2vh 0rem 0vh 0rem;
+}
+
+.more-profile img{
+  width: 2rem;
+  height: 5vh;
+  border-radius: 50%;
+  margin-right: -1.3rem;
+}
+
+.more-profile p{
+  margin-left: 2rem;
+}
+/* /// */
+
+
+
+/* Blog CSS */
+.Blog {
+  margin: 27vh 3.7rem 15vh 3.7rem;
+}
+
+.Blog-text-title h3 {
+  font-size: 3rem;
+  color: #FFFF;
+}
+
+.Blog-text-title p {
+  padding: 2vh 39rem 0vh 0rem;
+  color: #CCCC;
+  font-size: 1rem;
+  font-family: 'DM Sans';
+  font-style: normal;
+}
+
+.Blog-titel-cards {
+  margin: 7vh 0;
+  margin-bottom: 25vh;
+}
+
+.Blog-title {
+  margin-bottom: 7vh;
+}
+
+.Blog-title h3 {
+  font-size: 3rem;
+  color: #FFFF;
+}
+
+.Blog-cards {
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Blog-cards .blog-card-l1 {
+  width: 76rem;
+  padding: 2vh 1rem;
+  border-radius: 10px;
+  background-color: #0E1E45;
+}
+
+.card-l1-title-img img {
+  width: 74rem;
+  height: 70vh;
+  border-radius: 10px;
+}
+
+.card-l1-title-img p {
+  font-size: 1.5rem;
+  color: #FFFF;
+  margin: 3vh 16rem 2vh 0rem;
+  font-weight: 700;
+}
+
+.user {
+  display: flex;
+  line-height: 8vh;
+}
+
+.user img {
+  width: 2.9rem;
+  height: 7.2vh;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.user p {
+  font-size: 1.2rem;
+  color: #FFFF;
+}
+
+.title-blog p {
+  color: #CCCC;
+  margin: 3vh 4rem 2vh 0rem;
+}
+/*  */
+
+
+
+
+/* Author-Collector CSS */
+.Author-Collector {
+  margin-top: 20vh;
+}
+
+.Author-Collector .Awesome-artist-search-question {
+  margin: 3.7vh 3.7rem;
+}
+
+.Author-Collector .Awesome-artist-search-question .Awesome-artist-title h2 {
+  font-size: 3rem;
+  color: #FFFF;
+}
+
+.Awesome-artist-search-question .list-search-question {
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-search-question {
+  margin: 5vh 0 2vh 0;
+}
+
+.list-search-question input {
+  width: 84%;
+  height: 100%;
+  border: 1px solid #0047B8;
+  outline: none;
+  border-radius: 5px;
+  padding: 1.3rem;
+  background-color: #0E1E45;
+  color: #FFFF;
+  font-weight: 400;
+}
+
+.list-search-question button {
+  width: 15%;
+  height: 100%;
+  border: 1px solid #1F75FF;
+  background-color: #1F75FF;
+  border-radius: 5px;
+  color: #FFFF;
+}
+
+.Artist-the-Week {
+  margin: 12vh 3.7rem 0vh 3.7rem;
+}
+
+.Artist-the-Week .artist-the-week-title h2 {
+  font-size: 3rem;
+  color: #FFFF;
+  margin-bottom: 4vh;
+}
+
+.cards-artists{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.artist2 {
+  width: 25rem;
+  height: 85vh;
+  padding: 7px;
+  margin: 3vh 0.6rem 0vh 0rem;
+  border-radius: 15px;
+  background-color: #0E1E45;
+}
+
+.profile-artist {
+  position: absolute;
+  z-index: 100;
+  margin: 17vh 7rem 1vh 7rem;
+}
+
+.cards-artists .artist2 .profile-artist img {
+  width: 10rem;
+  height: 25.5vh;
+  border-radius: 50%;
+  border: 5px solid #0E1E45;
+}
+
+.cards-artists .artist2 .profile-artist i {
+  font-size: 1.7rem;
+  background-color: #FFFF;
+  border-radius: 200%;
+  color: blue;
+  margin: 20vh 0rem 0vh -3rem;
+  position: absolute;
+}
+
+.cards-artists .artist2 .avatar img {
+  width: 24rem;
+  height: 30vh;
+  border-radius: 15px;
+}
+
+.user-name-owner {
+  margin-top: 15vh;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #FFFF;
+  text-align: center;
+}
+
+.address-owner{
+  text-align: center;
+  color: #FFFF;
+  margin: 2vh 0;
+  font-weight: 400;
+}
+
+.followers-ơwner{
+  display: flex;
+  justify-content: space-around;
+  margin: 2vh 2rem;
+  color: #FFFF;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.btns-followers-ơwner {
+  margin-top: 4vh;
+}
+
+.btns-followers-ơwner button{
+  width: 95%;
+  height: 7vh;
+  margin: 1vh 0.7rem;
+  border-radius: 10px;
+  border: none;
+  background-color: blue;
+  color: #FFFF;
+}
+/*  */
+
