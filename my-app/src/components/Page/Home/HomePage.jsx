@@ -1,12 +1,12 @@
 import React from 'react'
-import CTA from './CTA'
-import ExploreArt from './ExploreArt'
-import Footer from './Footer'
-import Hero from './Hero'
-import LiveAuctions from './LiveAuctions'
-import Navbar from './Navbar'
-import PopularArticles from './PopularArticles'
-import PopularArtist from './PopularArtist'
+import ExploreArt from './Tasks/ExploreArt'
+import Hero from './Tasks/Hero'
+import LiveAuctions from './Tasks/LiveAuctions'
+import Navbar from './Tasks/Navbar'
+import PopularArtist from './Tasks/PopularArtist'
+import PopularArticles from './Tasks/PopularArticles'
+import CTA from './Tasks/CTA'
+import Footer from './Tasks/Footer'
 
 export default function HomePage() {
   return (
