@@ -576,6 +576,7 @@ body {
   border-radius: 15px;
   background-color: #0E1E45;
   margin: 2vh 0.8rem 0 0;
+
 }
 
 .cards-NFTs-article2 {
@@ -714,8 +715,6 @@ body {
 /* ////////////// */
 
 /* Footer */
-
-
 .Footer {
   margin: 39vh 3.7rem 7vh 3.7rem;
 }
@@ -779,6 +778,8 @@ li {
 }
 
 /* ////////// */
+
+
 
 
 
@@ -881,6 +882,7 @@ li {
 }
 
 /* ////// */
+
 
 
 
@@ -1555,4 +1557,3 @@ li {
   color: #FFFF;
 }
 /*  */
-
